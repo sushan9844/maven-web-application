@@ -1,4 +1,4 @@
-apiVersion: apps/v1
+apiVersion: apps/v3
 kind: Deployment
 metadata:
   name: mavenwebappdeployment
@@ -29,7 +29,7 @@ spec:
               cpu: 500m
               memory: 512Mi
 ---
-apiVersion: v1
+apiVersion: v3
 kind: Service
 metadata:
   name: mavenwebappsvc
