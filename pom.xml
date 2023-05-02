@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>admin</name>
-	      <url>http://54.172.15.147:9110/sush/repository/sushan-release/</url>
+	      <url>http://172.31.82.84:9110/sush/repository/sushan-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>admin</name>
-	      <url>http://54.172.15.147:9110/sush/repository/sushan-snapshot/</url>
+	      <url>http://172.31.82.84:9110/sush/repository/sushan-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
